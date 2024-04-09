@@ -73,6 +73,18 @@
     };
     date = "2023-11-02";
   };
+  foot = {
+    pname = "foot";
+    version = "ee5549af72ab78520ac2aa1c671bf5c2d347c8ca";
+    src = fetchFromGitHub {
+      owner = "catppuccin";
+      repo = "foot";
+      rev = "ee5549af72ab78520ac2aa1c671bf5c2d347c8ca";
+      fetchSubmodules = false;
+      sha256 = "sha256-3hK9klXwdHhprG2wUMt7nBfbL1mb/gl+k/MtJUuY000=";
+    };
+    date = "2024-01-18";
+  };
   glamour = {
     pname = "glamour";
     version = "66d7b09325af67b1c5cdb063343e829c04ad7d5f";
