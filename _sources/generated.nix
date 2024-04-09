@@ -289,4 +289,16 @@
     };
     date = "2024-04-04";
   };
+  zellij = {
+    pname = "zellij";
+    version = "5c0e390603b14e7d4b27e9cacf0bcb2fd4b9cb41";
+    src = fetchFromGitHub {
+      owner = "catppuccin";
+      repo = "zellij";
+      rev = "5c0e390603b14e7d4b27e9cacf0bcb2fd4b9cb41";
+      fetchSubmodules = false;
+      sha256 = "sha256-Fc1x2YFK9ZSwHtUzhN2+PNZbK616+F8c78utFPvnPpc=";
+    };
+    date = "2023-07-12";
+  };
 }

@@ -93,3 +93,7 @@ fetch.github = "catppuccin/tmux"
 [zathura]
 src.git = "https://github.com/catppuccin/zathura.git"
 fetch.github = "catppuccin/zathura"
+
+[zellij]
+src.git = "https://github.com/catppuccin/zellij.git"
+fetch.github = "catppuccin/zellij"

@@ -478,5 +478,25 @@
             "type": "github"
         },
         "version": "0adc53028d81bf047461bc61c43a484d11b15220"
+    },
+    "zellij": {
+        "cargoLocks": null,
+        "date": "2023-07-12",
+        "extract": null,
+        "name": "zellij",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "catppuccin",
+            "repo": "zellij",
+            "rev": "5c0e390603b14e7d4b27e9cacf0bcb2fd4b9cb41",
+            "sha256": "sha256-Fc1x2YFK9ZSwHtUzhN2+PNZbK616+F8c78utFPvnPpc=",
+            "type": "github"
+        },
+        "version": "5c0e390603b14e7d4b27e9cacf0bcb2fd4b9cb41"
     }
 }
